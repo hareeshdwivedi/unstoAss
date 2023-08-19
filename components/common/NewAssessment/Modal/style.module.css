@@ -1,0 +1,61 @@
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.modal_title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.modal_footer{
+    box-shadow: 0px -4px 50px 0px #00000017;
+    padding: 10px;
+}
+
+.save_btn{
+    background-color: #0073E6;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.modal_body {
+    padding: 20px;;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 800px;
+
+    @media (max-width: 700px) {
+        max-height: 300px;
+    }
+
+    &.isMobile{
+        max-height: 300px;
+    }
+}
+
+.modal_content {
+    border-radius: 10px;
+    width: 500px;
+    background-color: #fff;
+
+
+    @media (max-width: 700px) {
+        width: 370px;
+    }
+
+    &.isMobile{
+        width: 370px;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}

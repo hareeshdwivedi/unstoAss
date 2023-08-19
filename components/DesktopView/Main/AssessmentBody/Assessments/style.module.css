@@ -1,0 +1,20 @@
+.cotainer {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.flex{
+    display: flex;
+    padding: 15px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: var(--text-100, #1C4980);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 20px;
+}

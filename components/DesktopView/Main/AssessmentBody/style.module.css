@@ -1,0 +1,12 @@
+.cotainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 30px;
+}

@@ -1,0 +1,41 @@
+.container {
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px dotted #B9CBD5;
+    background-color: #F6F8FA;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 390px;
+    height: 210px;
+    cursor: pointer;
+    gap: 10px;
+
+    @media (max-width: 700px) {
+        width: 345px;
+    }
+
+    &.isMobile{
+        width: 345px;
+    }
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.description { 
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}

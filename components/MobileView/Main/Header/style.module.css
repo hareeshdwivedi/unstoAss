@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.title_section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.menu{
+    cursor: pointer;
+    transition: all .1s;
+
+    &:not(.active):hover {
+        background-color: #F2F8FE;
+        border-radius: 10px;
+    }
+}
+
+.toggle{
+    cursor: pointer;
+}

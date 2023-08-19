@@ -1,0 +1,35 @@
+.cotainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    align-self: center;
+    border-right: 1px solid #eee;
+    padding: 10px;
+}
+
+.navTitle {
+    font-size: 14px;
+    color: #0073E6;
+    padding: 10px;
+    border-bottom: 2px solid #0073E6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.cotainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 160px;
+    position: relative;
+}

@@ -1,0 +1,9 @@
+.cotainerFlex {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 16px 20px 20px 30px;
+    position: fixed;
+}
